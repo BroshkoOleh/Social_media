@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 import { fetchOtherProfiles } from "../../redux/slices/otherProfilesSlice";
 import ShowMoreBtn from "../common/ShowMoreBtn";
-import SmallPreloader from "../common/smallPreloader";
+import SmallPreloader from "../common/SmallPreloader";
 import FollowBtn from "../common/FollowBtn";
 import { getFilteredItems } from "../../utils/filteredItems/getFilteredItems";
 import {
